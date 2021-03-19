@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3710167223453970557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3710167223453970555}
+  - component: {fileID: 3710167223453970556}
+  m_Layer: 0
+  m_Name: MusicKitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3710167223453970555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3710167223453970557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3710167223453970556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3710167223453970557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da403f22aaaf968458046368fa7cd84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicKits:
+  - nameKit: 8-Bit Kit
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: e5935d989b534e9408d03cda0c5de820, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 73fec93976abc5e4a858df61912ccff6, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 89885de77e52c2948a038e710966ad9a, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Eye of the Dragon
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: ee91ced615a790c4ca364ee11624f67f, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 594a8f40c42d56640904c626d28f5b32, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 862d75dc5f4c19e49ac57b489b198fc2, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Ez4ence
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 1c711188008a99f419bde4d41858124c, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: d9504b5bfe6ebe2438bb07cfd1a7460a, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 1d550f68104578c439f4f42e1207857b, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: GLA
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 6af2c7ce203a34c4b84e4be35b172684, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: d34773d2d53923c49bba600a1da998df, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 626a766522af7394f988f8c6e41633db, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Gunman Taco Truck
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 40785978c34710d47989dc3fb353c749, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 023edb42c1980b745ab1e735a4fbfb15, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 89a3b95f5aa5c0141a5c584bc3101f41, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: I Am
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 9c7e180519eda3541bac2779f276c634, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 01c061c429c3f5f41af16caeeef2b0d0, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 0a49e053627105542b8afe23fbf5d7e5, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: III_Arena
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: e40e8e6b2bdff3440bdde1ba1b6c7c4a, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 67806cda2f59f4c4aa50b71bfbc5b629, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 496a65b3ccff1934fa2ceaf7e313916b, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Invasion!
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: c8021827c862cb54f9d18e15babc2b23, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 0a58be0c68875b244a8637bf7041de91, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: e88b4a555257df24491001dab8f08209, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: King, Scar
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: c8b9f1b0df764a54b98d72fe7ad99fb1, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 494670edaf309f84ea601293aeea6e95, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: e4fa6deed3eebde45828e96aeaa69752, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Life's Not Out To Get You
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 4ea55d260cc48514f868b189afe940a7, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 8b95729a0bb2c13448109c49aa7b842c, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: f5cf6d476f8697249acc67400d297931, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Sponge Fingerz
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 243349baeb0f43845b57a01b1349089d, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: 683d1fdf68fe8554eaf06f16fa2cc345, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: e1d8fadfb461949448125554827d9c38, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  - nameKit: Total Domination
+    menu:
+      name: 
+      clip: {fileID: 8300000, guid: 713a5306a9f5fc64ca995baf61eed5d8, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 1
+      source: {fileID: 0}
+    startRound:
+      name: 
+      clip: {fileID: 8300000, guid: ac75d6103762c36468c16b5a7a8585da, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+    mvpPlayer:
+      name: 
+      clip: {fileID: 8300000, guid: 9753aebdf48818d4fa7548e905cd241e, type: 3}
+      volumn: 0.6
+      pitch: 1
+      loop: 0
+      source: {fileID: 0}
+  currentMusicKitIndex: 0
